@@ -1,0 +1,150 @@
+
+/*======================================
+  21. Contact CSS
+========================================*/
+.contact-form-area {
+	box-shadow: 0px 0px 15px #0000001a;
+	padding: 50px;
+}
+.contact-form-area .title {
+}
+.contact-form-area .title h4 {
+	color: #F7941D;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.contact-form-area .title h3 {
+	font-size: 25px;
+	text-transform: capitalize;
+	font-weight: 600;
+}
+.contact-form-area .form-group {
+	margin-top: 30px;
+}
+.contact-form-area .form-group input {
+	height: 48px;
+	line-height: 48px;
+	width: 100%;
+	border: 1px solid #e6e2f5;
+	padding: 0px 20px;
+	color: #333;
+	border-radius: 0px;
+	font-weight: 400;
+}
+.contact-form-area .form-group textarea {
+	height: 180px;
+	width: 100%;
+	border: 1px solid #e6e2f5;
+	padding: 15px 20px;
+	color: #333;
+	border-radius: 0px;
+	resize: none;
+	font-weight:400;
+}
+.contact-form-area .form-group label {
+	color: #333;
+	position: relative;
+	margin-bottom: 10px;
+}
+.contact-form-area .form-group label span {
+	color: #ff2c18;
+	display: inline-block;
+	position: absolute;
+	right: -12px;
+	top: 4px;
+	font-size: 16px;
+}
+.contact-form-area .button .btn {
+	height: 50px;
+	border: none;
+}
+#myMap {
+	height: 500px;
+	width: 100%;
+}
+
+@media(min-width:768px) and (max-width:991px){
+.single-banner a {
+	margin-top: 0;
+}
+.single-banner h3 {
+	font-size: 15px;
+	margin:0;
+}
+.single-banner .content {
+	transform: translateY(-50%);
+	padding-left: 15px;
+	width: 100%;
+}
+
+.cdown-img {
+	height: 300px;
+}
+.single-deal-inner {
+	padding: 60px 0;
+}
+.eshop-multi-products .list-image {
+	max-width: ;
+	width: 100px;
+	max-width: 100px;
+	min-width: 100px;
+	min-height: 100px;
+	height: 100px;
+}
+.hero-slider.style-1 .hero-text {
+	padding-left: 205px;
+}
+.hero-area.style-3 .hero-content {
+	width: 70%;
+	max-width:100%;
+}
+.single-banner-3 .content {
+	left: initial;
+	right: 20px;
+	padding-left: 100px !important;
+}
+
+.hero-area.style-4 .hero-content {
+  width: 60%;
+  max-width: initial;
+}
+.hero-area.style-4 .hero-content .main-title {
+	color: #424646;
+	font-size: 22px;
+	line-height: 34px;
+}
+}
+@media (max-width:767px){
+.hero-slider.style-1 .hero-text {
+	padding: 0;
+}
+.hero-area.style-4 .hero-content {
+	padding: 0;
+	width: 100%;
+}
+.hero-area.style-4 .hero-content {
+	padding: 0;
+	width: 100%;
+	max-width: 100%;
+}
+.hero-area.style-4 .hero-content .main-title {
+	color: #424646;
+	font-size: 24px;
+	line-height: 36px;
+}
+.hero-area .single-slider{
+	height:450px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+

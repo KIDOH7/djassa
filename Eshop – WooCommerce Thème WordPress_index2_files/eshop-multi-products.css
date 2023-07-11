@@ -1,0 +1,107 @@
+.shop-home-list{
+	padding:0;
+	padding-bottom:100px;
+}
+.eshop-multi-products {
+	overflow: hidden;
+	position: relative;
+	border: 1px solid #eee;
+	padding: 10px;
+	margin-top: 20px;
+}
+.eshop-multi-products:last-child {
+}
+.eshop-multi-products .list-image {
+	position: relative;
+	width: 154px;
+	height: 180px;
+	min-width: 154px;
+	min-height: 154px;
+}
+.eshop-multi-products .list-image img{
+	width:100%;
+	height:100%;
+}
+.eshop-multi-products .list-image.eshop-overlay:before{
+	background:#000;
+	opacity:0;
+	visibility:hidden;
+	-webkit-transition:all 0.4s ease;
+	-moz-transition:all 0.4s ease;
+	transition:all 0.4s ease;
+}
+.eshop-multi-products .list-image.eshop-overlay:hover:before{
+	opacity:0.3;
+	visibility:visible;
+}
+.eshop-multi-products .list-image .buy{
+	height:40px;
+	width:40px;
+	line-height:40px;
+	font-size:14px;
+	color:#fff;
+	background:#F7941D;
+	border-radius:100%;
+	display:block;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-20px;
+	margin-top:-20px;
+	text-align:center;
+	-webkit-transition:all 0.4s ease;
+	-moz-transition:all 0.4s ease;
+	transition:all 0.4s ease;
+	transform:scale(0);
+	opacity:0;
+	visibility:hidden;
+}
+.eshop-multi-products .list-image .buy:hover{
+	background:#fff;
+	color:#333;
+}
+.eshop-multi-products .list-image:hover .buy{
+	opacity:1;
+	visibility:visible;
+	transform:scale(1);
+}
+.eshop-multi-products .no-padding{
+	padding-right:0px;
+}
+.eshop-multi-products img{
+	width:100%;
+	height:100%;
+}
+.eshop-multi-products .content {
+	padding-right: 12px;
+}
+.eshop-multi-products .content .title {
+	line-height: 18px;
+}
+.eshop-multi-products .content .title a {
+	font-size: 14px;
+	font-weight: 600;
+	color: #222222;
+}
+.eshop-multi-products .content .titlea {
+	color: #333;
+}
+.eshop-multi-products .content a:hover{
+	color: #F7941D;
+}
+.eshop-multi-products .content .price {
+	font-weight: 500;
+	background: #f7941d;
+	display: inline-block;
+	color: #fff;
+	padding: 2px 18px;
+	border-radius: 30px;
+	font-size: 14px;
+	font-weight: 500;
+}
+.eshop-multi-products .eshop-multi-column {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+

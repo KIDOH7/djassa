@@ -1,0 +1,31 @@
+.single-sm-features {
+	position: relative;
+	padding-left: 65px;
+}
+.single-sm-features i {
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #333;
+	background: transparent;
+	border-radius: 100%;
+	display: block;
+	font-size: 32px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.single-sm-features h4 {
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 22px;
+	color: #333;
+	margin: 0;
+}
+.single-sm-features p {
+	color: #898989;
+	line-height: 28px;
+	font-size:14px;
+}

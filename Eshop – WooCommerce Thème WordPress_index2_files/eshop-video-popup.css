@@ -1,0 +1,59 @@
+
+/*=============================
+	About US CSS
+===============================*/
+
+.about-img {
+	position: relative;
+	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+	border: 10px solid #fff;
+}
+.about-img:before{
+	opacity:0;
+	visibility:hidden;
+	-webkit-transition:all 0.4s ease;
+	-moz-transition:all 0.4s ease;
+	transition:all 0.4s ease;
+}
+.about-img:hover:before{
+	opacity:0.6;
+	visibility:visible;
+}
+.about-img .video {
+	height: 64px;
+	width: 64px;
+	line-height: 64px;
+	background: #F7941D;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 100%;
+	display: block;
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -32px;
+	margin-top: -32px;
+	padding-left: 4px;
+	transform: scale(0);
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+.about-img .video:hover{
+	background:#fff;
+	color:#F7941D;
+}
+.about-img:hover .video{
+	transform:scale(1);
+}
+.about-img img{
+	height:100%;
+	width:100%;
+	
+}
+/*=============================
+	End About US CSS
+===============================*/

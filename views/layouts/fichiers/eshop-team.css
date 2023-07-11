@@ -1,0 +1,56 @@
+
+/*======================================
+  10. Start Team CSS
+========================================*/  
+.single-team {
+	margin-top: 30px;
+	position:relative;
+	-webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    transition: all 500ms ease;
+	display: inline-block;
+	overflow:hidden;
+	text-align:center;
+	background:#fff;
+}
+.single-team .info-head {
+	padding: 35px 30px;
+}
+.single-team .image img{
+	height:100%;
+	width:100%;
+}
+.single-team .info-box {
+	text-align:center;
+}
+.single-team .info-box .name {
+	display: block;
+	font-size: 17px;
+	color: #333;
+	font-weight: 500;
+	margin-bottom: 3px;
+	text-transform:capitalize;
+}
+.single-team .info-box .designation{
+	color:#aaa;
+	font-size:13px;
+}
+.team-social li a:hover{
+	color:#F7941D;
+}
+
+.team-social {
+  display: flex;
+  gap: 17px;
+  margin: 0;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+  margin-top: 10px;
+}
+.team-social li a {
+  color: #333;
+}
+/*======================================
+  End Team CSS
+========================================*/ 

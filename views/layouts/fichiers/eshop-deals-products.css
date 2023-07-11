@@ -1,0 +1,124 @@
+
+/*=============================
+	Start Cowndown CSS
+===============================*/
+.cown-down {
+	position: relative;
+	height: 600px;
+	overflow:hidden;
+}
+.cdown-img {
+	width: 100%;
+	min-height: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.cown-down .padding-right{
+	padding-right:0;
+}
+.cown-down .padding-left{
+	padding-left:0;
+}
+.single-deal-product {
+  
+}
+.single-deal-inner {
+	padding: 160px 0;
+	text-align: center;
+	max-width: 600px;
+	margin: 0 auto;
+}
+.single-deal-product .content {
+	text-align: center;
+	background: #FDFBEF;
+	height: 100%;
+	position:relative;
+}
+.single-deal-product .content .heading-block {
+	left: 0;
+	top: 0;
+	padding: 75px;
+}
+.single-deal-inner .small-title {
+	font-size: 13px;
+	color: #777;
+	display: block;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+	font-weight: 600;
+}
+.single-deal-inner .title {
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 20px;
+	text-transform: capitalize;
+}
+.single-deal-inner .price {
+	margin-top: 35px;
+	font-size: 35px;
+	font-weight: 700;
+	color: #F7941D;
+}
+.single-deal-product .price del{
+	margin-top: 35px;
+	font-size: 24px;
+	font-weight: 500;
+	color:#666;
+}
+.price-count-main{
+	font-size:13px;
+	color:#666;
+	text-transform:uppercase;
+}
+.price-count-main div {
+  background: #000;
+  display: inline-block;
+  margin-top: 25px;
+  padding: 13px 50px;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 30px;
+}
+
+.deals-product-active.owl-carousel .owl-nav {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin-top: -30px;
+}
+
+.deals-product-active.owl-carousel .owl-nav div {
+    height: 60px;
+    width: 40px;
+    line-height: 60px;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    margin: 0;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    padding: 0;
+    border-radius: 0;
+}
+
+.deals-product-active.owl-carousel .owl-nav div:hover {
+    background: #F7941D;
+    color: #fff;
+}
+
+.deals-product-active.owl-carousel .owl-controls .owl-nav .owl-prev {
+    left: 0;
+}
+
+.deals-product-active.owl-carousel .owl-controls .owl-nav .owl-next {
+    right: 0;
+}
+
+/*=============================
+	End Cowndown CSS
+===============================*/

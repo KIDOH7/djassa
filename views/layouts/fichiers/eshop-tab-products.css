@@ -1,0 +1,43 @@
+.product-tab-list {
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	border: none;
+	padding-left: 0;
+	margin-left: 0;
+	list-style: none;
+	margin-bottom: 40px;
+}
+.product-tab-list li {
+	margin-right: 6px;
+	display: inline-block;
+}
+.product-tab-list li:last-child{
+	margin-right:0px;
+}
+.product-tab-list li button {
+	color: #333;
+	text-transform: uppercase;
+	display: inline-block;
+	position: relative;
+	margin-right: 5px;
+	font-weight: 500;
+	background: #fff;
+	color: #333;
+	padding: 8px 18px;
+	border-radius: 3px;
+	font-size: 13px;
+	display: block;
+	border-color: transparent;
+}
+.product-tab-list li button i{
+	margin-right:10px;
+}
+.product-tab-list li button.active,
+.product-tab-list li:hover button{
+	background:#F7941D;
+	color:#fff;
+	border-color:transparent;
+}
+
+
